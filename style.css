@@ -1,0 +1,722 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    height: 120px;
+   overflow: visible;
+   position: fixed;
+    z-index: 10000;
+    top: 0;
+}
+.header1{
+    width: 100%;
+    height: 50px; 
+    background: white;
+}
+
+.register {
+    height: 100%;
+
+}
+
+.register li {
+   float: left;
+   font-size: 25px;
+    margin-left: 10px;
+    padding-top: 15px;
+ list-style: none;
+  color: black;
+  
+}
+
+.register li:hover a{
+    background: white;
+}
+
+
+ 
+.header{
+width: 100%;
+height: 70px;
+background-color: rgba(0, 0, 255, 0.5);
+
+}
+.nav{
+    height: 100%;
+float: right;
+    list-style: none;
+}
+.nav li{
+    height: 100%;
+  margin-top: 20px;
+    float: left;
+}
+.nav li a{
+    display: block;
+    width: 150px;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    
+}
+ a:hover{
+     background: rgba(0, 0, 255, 0.3);
+     
+ }
+ .nav li ul{
+     background-color:  rgba(0, 0, 255, 0.7);
+ }
+ 
+.nav li ul li{
+     float: none;
+ }
+ .nav li ul{
+     display: none;
+
+ }
+ .nav li:hover ul{
+     display: block;
+     list-style: none;
+ }
+ .logo{
+     height: 100%;
+    display: table;
+    float: none;
+    
+     
+ }
+ .logo1{
+    height: 100%;
+     padding-left: 20px;
+     display: table-cell;
+     vertical-align: middle;
+     
+ }
+ .style{
+     text-transform: uppercase;
+     font-weight: bolder;
+     font-size: 30px;
+ }
+ /*background image*/
+ .background{
+     background: url(./images/school5.jpg);
+     width: 100%;
+     height: 1000px;
+     background-size: cover;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     
+ }
+ .background p{
+font-size: 100px;
+ color: white;
+ }
+
+/*slideshow*/
+
+ .body1{
+     
+    width: 700px;
+    height: 400px;
+
+    margin: 30px auto;
+    overflow: hidden;
+}
+.slidebody{
+    width: 2912px;
+  animation: slide 14s ease infinite;
+}
+.slide {
+    float: left;
+    height: 510px;
+    width: 728px;
+  }
+  @keyframes slide {
+    20% {margin-left: 0px;}
+    30% {margin-left: -728px;}
+    50% {margin-left: -728px;}
+    60% {margin-left: -1456px;}
+    70% {margin-left: -1456px;}
+    80% {margin-left: -2184px;}
+    90% {margin-left: -2184px;}
+  }
+  .slidebody .slide img{
+      width: 100%;
+      height: 100%;
+
+  }
+
+/*end*/
+
+/*body2 */
+.body2{
+    width: 100%;
+    height: 2000px;
+}
+/*part 1 */
+.text{
+    width: 100%;
+    height: 1000px;
+   
+}
+
+.text h1{
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Times New Roman', Times, serif;
+    background:  brown;
+    color: white;
+}
+.text p{
+    width: 600px;
+    font-style: oblique;
+    font-weight: bold;
+    position: absolute;
+    left: 300px;
+}
+.text img{
+    width: 100%;
+    height: 100%;
+}
+
+
+/*part 2*/
+
+.last{
+    width: 100%;
+    height: 900px;
+    margin-top: 120px;
+  
+    
+}
+.last img{
+    width: 400px;
+    height: 300px;
+   margin: 20px 100px;
+}
+    
+ 
+ .last p{
+     width: 500px;
+     height: 100px;
+     float: right;
+    text-align: right;
+     margin-top: 120px;
+     margin-right: 150px;  
+ }
+ 
+ .lastpic{
+     width: 100%;
+     height: 400px;
+     background: url("./images/team.jpg");
+     background-size: cover;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+
+ }
+  
+.lastpic h1{
+    font-size: 80px;
+    color: white;
+}
+/*history*/
+.bodyh{
+   
+    width: 100%;
+    height: 2500px;
+    position: relative;
+   border: 2px solid black;
+}
+.history{
+    width: 60%;
+    height: 2300px;
+    
+    margin-top: 50px;
+    background: rgba(0, 0, 0, 0.1);
+    position: absolute;
+    left: 300px;
+}
+.history h1{
+    text-align: center;
+}
+.history .mid{
+    height: 100%;
+    margin: 0 30px;
+    padding: 0 50px;
+    
+}
+.history h2{
+    padding-top: 70px;
+    text-align: center;
+}
+
+.history .source{
+    width: 100%;
+    height: 120px;
+    text-align: center;
+   
+}
+.history .source h4{
+    padding-top: 30px;
+ 
+}
+ .source h4 a{
+    text-decoration: underline;
+    color: orange;
+ 
+}
+.source h4 a:hover{
+    background-color: white;
+}
+/*end of history*/
+
+/*rules*/
+.rules{
+    width: 60%;
+    height: 2440px;
+    
+    margin-top: 50px;
+    padding: 0 70px;
+    background: rgba(0, 0, 0, 0.1);
+    position: absolute;
+    left: 300px;
+}
+.rules h1{
+    margin-top: 20px;
+    text-align: center;
+}
+.rules ol{
+    margin: 0 30px;
+    padding: 0 50px;
+  
+    
+   
+} 
+
+.rules ol li ul{
+    text-align: center;
+    list-style: none;
+} 
+
+.rules .sourc{
+    width: 100%;
+    margin-top: 90px;
+    text-align: center;
+     
+}
+.sourc h4 a{
+    text-decoration: underline;
+    color: orange;
+ 
+}
+.sourc h4 a:hover{
+    background-color: rgba(0, 0, 0, 0.1);
+}
+/*end of rules*/
+
+/*pics*/
+
+.flex{
+
+    margin-top: 120px;
+    width: 100%;
+    height: 3990px;
+ 
+  
+   
+}
+  
+/*images*/
+
+
+
+
+
+/*la fin images*/
+.conti{
+    width: 50%;
+    display: flex;
+    padding-right: 0;
+    padding: 0;
+    margin-left: 0;
+    margin-right: 0;
+     
+   
+}
+.flex img{
+
+    width: 425px;
+    height: 300px;
+    justify-content: space-between;
+    padding: 10px;
+     
+   
+}
+.flex .conti div img:hover{
+    cursor: pointer;
+    border: 2px solid black;
+  border-radius: 10px;
+   
+}
+/*end of pics*/
+
+/*videos*/
+.flex .conti div video{
+    width: 425px;
+    height: 300px;
+    justify-content: space-between;
+    padding: 10px;
+}
+/*end of videos*/
+
+/*teachers*/
+
+/*end of teachers*/
+
+
+
+
+
+
+
+
+
+
+/*programmes*/
+
+.bodyho{
+   
+    width: 100%;
+    height: 1000px;
+    position: relative;
+   margin-top: 30px;
+   border: 2px solid black;
+}
+
+.back{
+    background-color:  rgba(0, 0, 255, 0.7);
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 200px;
+    
+}
+.back p{
+ font-size: 100px;
+    color: white;
+}
+.searchb{
+    width: 250px;
+    height: 300px;
+    margin-top: 50px;
+    float: right;
+    text-align: center;
+   
+
+}
+.searchb input{
+    margin-top: 150px;
+    height: 30px;
+    background: rgba(0, 0, 0, 0.2);
+    float: left;
+    border: none;
+    
+}
+
+ .pro{
+     width: 50%;
+     height: 90%;
+     background: rgba(0, 0, 0, 0.1);
+     margin-left: 100px;
+     padding: 10px 0;
+ }
+/*end of programmes*/
+
+
+
+/* contact*/
+.cont{
+    
+    width: 100%;
+    height: 500px;
+    background: rgba(0, 0, 0, 0.1);
+}
+ .cont .contactb{
+    
+    width: 270px;
+    height: 350px;
+    background:rgba(0, 0, 0, 0.5);
+    color: white;
+    margin: 0 auto;
+    margin-top: -100px;
+    /*passing over the menu*/
+}
+.contactb a img{
+     
+    margin-left:15px;
+}
+.mess{
+     
+    width: 100%;
+    height: 200px;
+    background: rgba(0, 0, 0, 0);
+}
+.mess form{
+    display: inline-flex;
+    
+}
+.mess form input{
+    margin-top: 100px;
+    height: 30px;
+    border: none;
+    background: rgba(0, 0, 0, 0.1);
+  
+  
+   
+}
+.mess form label{
+    margin-top: 100px; 
+   
+}
+
+/*end of contact*/
+
+
+/* form */
+
+.regist{
+    width: 500px;
+    height: 700px;
+    border: 2px solid black;
+    background: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.5));
+    margin: 0 auto;
+    margin-top: 150px;
+}
+.regist h1{
+    text-align: center;
+}
+
+.regist input[type=text], input[type=password] {
+    width: 97%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+  }
+.regist input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+  }  
+.regist button {
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+  }
+
+
+  button:hover {
+    opacity:1;
+  }
+
+  .cancelbtn {
+    padding: 14px 20px;
+    background-color: #f44336;
+  }
+  
+ 
+  .cancelbtn, .signupbtn {
+    float: left;
+    width: 50%;
+  }
+  
+  
+  .regis {
+    padding: 16px;
+  }
+  
+  
+  .render::after {
+    clear: both;
+    display: table;
+  }
+
+/*end of form*/
+
+/*calender*/
+
+.calen{
+    width: 100%;
+    height: 1800px;
+    background: rgba(0, 0, 0, 0.1);
+     
+}
+
+.calen #conter{
+    width: 60%;
+    height: 70%;
+    margin: 0 auto;
+    
+    margin-top: 100px;
+     
+}
+#conter table {
+    
+    border-collapse: collapse;
+    width: 100%;
+}
+#conter table tr th{
+    border: 1px solid  #dddddd;
+    text-align: left;
+    padding: 15px;
+}
+#conter table tr td{
+    padding: 15px;
+}
+
+tr:nth-child(even) {
+    background-color: white;
+  }
+
+/*end of calender*/
+
+
+/*admission */
+.bodyadm{
+    width: 100%;
+    height: 1000px;
+}
+.bodyadm h3{
+    font-family: Calibri; 
+    font-size: 25pt;         
+    font-style: normal; 
+    font-weight: bold; 
+    color:SlateBlue; 
+    text-align: center; 
+    text-decoration: underline
+  }
+  
+  .bodyadm table{
+    font-family: Calibri; 
+    color:black; 
+    font-size: 11pt; 
+    font-style: normal;
+    font-weight: bold;
+    text-align: center; 
+   
+    border-collapse: collapse; 
+    border: 2px solid navy
+  }
+  .bodyadm table.inner{
+    border: 0px
+  }
+  .bodyadm table tr td{
+    padding: 5px;
+}
+.bodyadm .lion tr td{
+    padding-right: 0;
+}
+
+
+/*end of admission*/
+
+
+
+
+
+
+
+
+
+
+ footer{
+     width: 100%;
+     height: 200px;
+     background: black;
+     color: white;
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     position: relative;
+ }
+ footer .float{
+     font-size: 13px;
+     position:absolute;
+    right: 4px;
+    bottom: 2px;
+ }
+ footer a{
+     color: white;
+ }
+ .social-logo{
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 10px 0;
+ }
+ .social-logo li{
+
+     list-style: none;
+    display: inline;
+    padding: 0 10px;
+ }
+ .typing{
+     width: 400px;
+     height: 150px;
+     position: absolute;
+     top: 20px;
+     right: 500px;
+     font-family: 'Times New Roman', Times, serif;
+ }
+ .typing h1{
+     text-align: center;
+     font-weight: bolder;
+ }
+ .typing h1 p{
+    text-align: center;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
